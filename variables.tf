@@ -1,7 +1,7 @@
 variable "name" {}
 variable "vpc_id" {}
 variable "tags" {
-  type = "map"
+  type = map
   default = {
     Terraform = "true"
   }
